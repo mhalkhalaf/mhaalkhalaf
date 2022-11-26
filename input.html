@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Freelance ,initiative,">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Title -->
+    <title>إضافة</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <!--CSS only-->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- input -->
+    <section id="Input">
+        <div class="mx-auto w-70 shadow-css">
+            <div class="mb ms-2 mt-2">
+                <hr class="border-0">
+                <div class="bor">
+                </div>
+                <div class="d-flex">
+                    <img src="svg/input.svg" alt="" class="img-h1 p-2" />
+                    <h2 class="fw-normal">فورم الإدخال</h2>
+                </div>
+            </div>
+            <div>
+                <h5 class="mb-4 ms-2 mt-2 fw-bold fw-nocolor">البيانات الشخصية</h5>
+            </div>
+            <form class="mb-3 ms-2 mt-2 container" id="form-input">
+                <!-- السطر الأول -->
+                <section class="row me-2 mb-3">
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputID" class="form-label fs-7 fw-bolder">معرف الطالب ( ID )</label>
+                        <div class="d-flex">
+                            <input required type="text , number" name="UserID" class="w-100 py-1 input-radius border-start-0" id="InputID" placeholder="أدخل المعرف (ID)">
+                            <img src="svg/ID.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputName" class="form-label ms-3 fs-7 fw-bolder">الاسم الكامل</label>
+                        <div class="d-flex px-lg-3">
+                            <input required type="text" name="FullName" class="w-100 input-radius border-start-0" id="InputName" placeholder="أدخل الاسم الكامل">
+                            <img src="svg/id-card.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputNumber" class="form-label fs-7 fw-bolder">رقم الهاتف</label>
+                        <div class="d-flex">
+                            <input required type="tel" name="tel" class="w-100 text-start input-radius border-start-0" id="InputNumber" placeholder="أدخل رقم الهاتف">
+                            <img src="svg/phone-call.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                </section>
+                <!-- السطر الثاني -->
+                <section class="row me-2 mb-3">
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputEmail" class="form-label fs-7 fw-bolder">البريد الإلكتروني</label>
+                        <div class="d-flex">
+                            <input required type="email" name="email" class="w-100 input-radius border-start-0" id="InputEmail" placeholder="أدخل البريد الإلكتروني">
+                            <img src="svg/mail-inbox-app.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12 position-relative">
+                        <label for="InputGender" class="form-label ms-3 fs-7 fw-bolder">الجنس</label>
+                        <div class="d-flex container">
+                            <div class="input-radius border-start-0 w-100 row">
+                                <div class="col-4 mx-4 position-absolute male">
+                                    <input required type="radio" name="Gender" id="InputMale">
+                                    <label for="InputMale" class="form-label1 fs-7 fw-bolder">ذكر</label>
+                                </div>
+                                <div class="col-4 mx-4 position-absolute fmale">
+                                    <input required type="radio" name="Gender" id="InputFmale">
+                                    <label for="InputFmale" class="form-label1 fs-7 fw-bolder">أنثى</label>
+                                </div>
+                            </div>
+                            <img src="svg/gender-fluid.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputSpecializa" class="form-label fs-7 fw-bolder"> التخصص</label>
+                        <div class="d-flex">
+                            <select class="w-100 input-radius set border-start-0" id="floatingSelectGrid">
+            <option disabled hidden selected>أدخل التخصص الدراسي</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+                            <img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/null/external-bachelor-miscellaneous-elements-outline-bartama-outline-64-bartama-graphic.png" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                </section>
+                <!-- بداية السطر الثالث -->
+                <section class="row me-2 mb-3">
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputUniversity" class="form-label fs-7 fw-bolder">الجامعة</label>
+                        <div class="d-flex">
+                            <input type="text" name="UniverSity" class="w-100 py-1 input-radius border-start-0" id="InputUniversity" placeholder="أدخل اسم الجامعة">
+                            <img src="svg/university.svg" alt="" class="img-input p-2 px-3 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputLocation" class="form-label ms-3 fs-7 fw-bolder">موقع الجامعة</label>
+                        <div class="d-flex px-lg-3">
+                            <input type="text" name="Location" class="w-100 input-radius border-start-0" id="InputLocation" placeholder="أدخل موقع الجامعة">
+                            <img src="svg/graduation-cap.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 col-sm-12">
+                        <label for="InputCourse" class="form-label fs-7 fw-bolder"> اسم التدريب</label>
+                        <div class="d-flex">
+                            <select required class="w-100 input-radius set border-start-0" id="floatingSelectGrid">
+        <option disabled hidden selected>ادخل اسم التدريب</option>
+        <option value="1">CopyWriting</option>
+        <option value="2">UI-UX Design</option>
+        <option value="3">Back-end</option>
+        <option value="4">Front-end</option>
+        <option value="5">WordPress</option>
+        <option value="6">Graphic Design</option>
+        </select>
+                            <img src="svg/contact-form.svg" alt="" class="img-input p-2 px-3" />
+                        </div>
+                    </div>
+                    <a class="no-line" href="/card.html">
+                        <div class="d-flex">
+                            <button type="submit" class="my-3 s-radius text-light fw-bolder">إضافة</button>
+                        </div>
+                    </a>
+
+
+            </form>
+        </div>
+        </section>
+</body>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Freelance ,initiative,">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Title -->
+    <title>إنشاء الحساب </title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <!--CSS only-->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <!-- SignUp -->
+    <div id="SignUp">
+        <!-- Hader -->
+        <div class="mt container ms-5 d-md-none d-sm-none d-lg-block mx-lg-auto mx-md-auto mx-sm-auto w-75">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 text-nowrap">
+                    <button class="color-3 h5 fw-bolder border-0 bg-transparent" id="btn-loginnew">
+                        <a class="no-line" href="/">تسجيل الدخول</a>
+                    </button>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 text-nowrap ms-sm-6">
+                    <button class=" color-4 h5 fw-bolder border-0  bg-transparent p-1" id="btn-sibnupnew">
+                        <a class="linenone" href="/signup.html">انشاء حساب</a>
+                    </button>
+                    <div class="borbot-1"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Forme SignUP -->
+        <div class="position-relative from-center">
+            <form class="mb-3 mt-5 container" id="form-signup">
+                <section class="me-2 mb-3">
+                    <!-- السطر الأول -->
+                    <div class="d-flex">
+                        <div class="mb-3 w-22 mx-0 d-flex">
+                            <input required type="text" name="FirstName" class="w-100 py-1 no-radius22 border-start-0" id="signupFirstName" placeholder="الاسم الأول">
+                            <img src="svg/user.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                        </div>
+                        <div class="mb-3 w-22 d-flex">
+                            <input required type="text" name="LastName" class="w-100 py-1 no-radius22 border-start-0" id="signupLastName" placeholder="اسم العائلة">
+                            <img src="svg/users.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                        </div>
+                    </div>
+                    <!-- signup -->
+                    <div class="mb-4 w-80 d-flex">
+                        <input required type="email" name="email" class="w-45 py-1 no-radius border-start-0" id="signupEmail" placeholder="البريد الإلكتروني أو رقم الهاتف">
+                        <img src="svg/email.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                    </div>
+                    <!-- السطر الثالث -->
+                    <!-- signup -->
+                    <div class="mb-4 w-80 d-flex">
+                        <input required type="password" name="Password" class="show w-45 no-radius border-start-0" id="signupPassword" placeholder="كلمة المرور">
+                        <img src="svg/hide-_1_.svg" onclick="sign()" class="hide-pas1 clos d-none order-1" id="showsign" alt="">
+                        <img src="svg/vuesax-outline-eye.svg" onclick="sign()" class="hide-pas1 open order-1" id="clossign" alt="">
+                        <img src="svg/lock.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                    </div>
+                    <!-- السطر الرابع -->
+                    <!-- signup -->
+                    <div class="mb-4 w-80 d-flex">
+                        <input required type="password" name="Password" class="show w-45  no-radius border-start-0" id="signupPasswordRNew" placeholder=" تأكيد كلمة المرور">
+                        <img src="svg/hide-_1_.svg" onclick="signr()" class="hide-pas2 clos d-none order-1" id="showsign2" alt="">
+                        <img src="svg/vuesax-outline-eye.svg" onclick="signr()" class="hide-pas2 open order-1" id="clossign2" alt="">
+                        <img src="svg/lock.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                    </div>
+                </section>
+
+                <section>
+                    <div class="fs-sm text-md-start text-sm-start  ms-3 color-3">
+                        هل لديك حساب بالفعل ؟
+                        <a href="/" class="no-bor fs-sm no-line fw-bold text-decoration-none">تسجيل الدخول</a>
+                    </div>
+                </section>
+                <article class="but1">
+                    <button class="my-5 mt-md-4 mt-sm-4 b-radius text-md-start text-sm-start text-light fw-semibold" id="btn-sign"> الخطوة التالية</button>
+                </article>
+                <img src="img/Asset 4.png" alt="صورة" class="d-lg-block d-md-none d-sm-none img-abs1">
+        </div>
+    </div>
+    </form>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>

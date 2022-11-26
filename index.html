@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Freelance ,initiative,">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Title -->
+    <title>تسجيل الدخول</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--CSS only-->
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Login -->
+    <div id="LogIn">
+        <!-- Start Header -->
+        <header class="mt container d-md-none d-sm-none d-lg-block ms-5 mx-lg-auto mx-md-auto mx-sm-auto w-75" id="hoder-login">
+            <div class="row">
+                <div class="col-2 text-nowrap">
+                    <button class="color-4 h5 fw-bolder border-0 bg-transparent" id="btn-login">تسجيل الدخول</button>
+                    <div class="borbot"></div>
+                </div>
+                <div class="col-2 text-nowrap ms-sm-6">
+                    <button class="color-3 h5 fw-bolder border-0  bg-transparent p-1" id="btn-signup">
+                        <a class="no-line" href="/signup.html">إنشاء حساب</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Start Forme Login -->
+        <div class="position-relative from-center">
+            <div class="">
+                <img src="img/Asset 4.png" alt="صورة" class="text-md-center d-md-inline-block d-sm-inline-block img-abs">
+            </div>
+            <form class="mb-3 mt-5 container" id="form-login">
+                <section class="me-2 mb-3">
+                    <!-- السطر الأول -->
+                    <div class="mb-4 w-80 d-flex">
+                        <input required type="email" name="email" class="w-45 py-1 no-radius border-start-0" id="LoginEmail" placeholder="البريد الإلكتروني">
+                        <img src="svg/email.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                    </div>
+
+                    <!-- السطر الثاني -->
+
+                    <div class="mb-4 w-80 d-flex">
+                        <input required type="password" name="Password" class="show w-45 no-radius border-start-0" id="passwordlogin" placeholder="كلمة المرور">
+                        <img src="svg/hide-_1_.svg" onclick="login()" class="hide-pas clos d-none order-1" id="showlogin" alt="">
+                        <img src="svg/vuesax-outline-eye.svg" onclick="login()" class="hide-pas open order-1" id="closlogin" alt="">
+                        <img src="svg/lock.svg" alt="" class="img-id p-2 p-lg-3 px-3" />
+                    </div>
+
+                    <section>
+                        <div class="fs-sm text-start  ms-3 color-3">
+                            هل نسيت كلمة المرور؟
+                            <a href="#" class="no-bor fs-sm fw-bold text-decoration-none">إعادة التعيين</a>
+                        </div>
+                    </section>
+                    <div class="but">
+                        <a href="/card.html">
+                            <button type="submit" class="mt-4 mb-md-3 text-nowrap  b-radius text-light fw-semibold" id="btn-log">
+                        تسجيل الدخول 
+                    </button>
+                        </a>
+                        <a href="/signup.html">
+                            <button type="button" class="mt-2 d-lg-none  b-radiussign text-light fw-semibold" id="btn-log">
+                                إنشاء حساب 
+                    </button>
+                        </a>
+                    </div>
+
+
+        </div>
+    </div>
+    </form>
+
+
+
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_courthouse" data-name="vuesax/outline/courthouse" transform="translate(-172 -188)">
+    <g id="courthouse">
+      <path id="Vector" d="M20.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h20a.755.755,0,0,1,.75.75A.755.755,0,0,1,20.75,1.5Z" transform="translate(173.25 209.25)" fill="#757c7e"/>
+      <path id="Vector-2" data-name="Vector" d="M3.25,4.991a7.472,7.472,0,0,1-2.78-.54.753.753,0,0,1-.47-.7v-3A.738.738,0,0,1,.33.131a.76.76,0,0,1,.7-.08,5.978,5.978,0,0,0,4.44,0,.76.76,0,0,1,.7.08.738.738,0,0,1,.33.62v3a.764.764,0,0,1-.47.7A7.472,7.472,0,0,1,3.25,4.991ZM1.5,3.231a5.965,5.965,0,0,0,3.5,0V1.781a7.4,7.4,0,0,1-3.5,0Z" transform="translate(183.25 189.239)" fill="#757c7e"/>
+      <path id="Vector-3" data-name="Vector" d="M.75,4.5A.755.755,0,0,1,0,3.75v-3A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v3A.755.755,0,0,1,.75,4.5Z" transform="translate(183.25 192.25)" fill="#757c7e"/>
+      <path id="Vector-4" data-name="Vector" d="M16.75,15.5H.75A.755.755,0,0,1,0,14.75v-11A3.381,3.381,0,0,1,3.75,0h10A3.381,3.381,0,0,1,17.5,3.75v11A.755.755,0,0,1,16.75,15.5ZM1.5,14H16V3.75c0-1.58-.67-2.25-2.25-2.25h-10c-1.58,0-2.25.67-2.25,2.25Z" transform="translate(175.25 195.25)" fill="#757c7e"/>
+      <path id="Vector-5" data-name="Vector" d="M15.59,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0H15.59a.755.755,0,0,1,.75.75A.755.755,0,0,1,15.59,1.5Z" transform="translate(175.83 199.25)" fill="#757c7e"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H1.5V10H0Z" transform="translate(179.24 200)" fill="#757c7e"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H1.5V10H0Z" transform="translate(183.24 200)" fill="#757c7e"/>
+      <path id="Vector-8" data-name="Vector" d="M0,0H1.5V10H0Z" transform="translate(187.24 200)" fill="#757c7e"/>
+      <path id="Vector-9" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(172 188)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

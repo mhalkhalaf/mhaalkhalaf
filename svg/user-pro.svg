@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.399" height="127.399" viewBox="0 0 126.399 127.399">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 157 157">
+      <image width="157" height="157" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAMAAACZ+IrkAAAAY1BMVEX8/PxZWlr///9LTEy+vr5PUFBcXV1TVFRISUlWV1dFRkY/QEDS0tJub2/29vY5OjrGxsbw8PCtra2ampqioqLj4+OEhYV6e3tlZmbp6enb29uSk5Oys7MwMTFzdHTMzMwpKiqYQT+eAAAEaklEQVR4nO2biU7rOhBAk3FsZ9/XNm3u/3/ls1vgttzQxo494Uk+EiAEEkfjbWZsPM/hcDgcDofD4XA4HA6Hw+F4AD45WuQ7Uqnq0iUIgiXtKu83KQqVU9uPESUSGo19e8p/iR/AqWZxSCM/8iXiKw1jVp9+gR9AeiYxZ8x/hDEek3N6tB9MTRz665C4mY7UAy+gP7nJCIY08A7zA69JOPvZzhfj2+QH6UGVJa/cbn5JVh2iJ+Tid3JydA/Rg2qkb90kdMTXg3zYELl79Ab0uQfNRjmhFzfIdhAUW+Xk0ghQ9aCK+GY5cbhFqFMPerI9dHLq9Yh2cNq2XP9CT3h6InSKduSKZgdToijn+0mHpSd2E2W7+IxlV42Rsl2EdWJASlUW7B1GUyS7VnXFSmiLNLSDlt2AI5dzlXPiE85zDDmxn6gvCrEsEpQiA9JCQ873C5RlAaWmXYliF2jaoaRRUKufY5JkdrHTnnc4dulFzw5nzWrkTzc7nP0uV6opPokoUt141TlneYbi9stzFCh18juCclTIYpZppAEMq6RVL8lEUYZW0UKnUZPhFbSgvGpphlhtLy+6xauEC2arolcLHu3x3OTMC5WWbYzWCbjrzQoLg+Gkdo/0m7sVLO6xby2gyrZueoe0tbtoY8+d4066D72Tv0WP+oiNxUe9jr3tz7KQHRG5m940vFsa8XDcNSNATV6MLqNhe9QV7e3PQjpcfrhmZPwy3O+P8Q2hSr37Xy6v8tb9OxElWXl381LkHQW8cvzT3ssY4XfmCeHyvl2GTHzmJOHn8iO6XvtnxLxEBuiGkPtk7ODDr1p6RsLw9qZCfGZ9WX3+aBqJz8Ohwxpe8OZEbiWMJu3HmMk3MlNaznVdz2U6fT2ZgapN5LJhpKhxCkbIr1/ZXTiWX3Me4NtjHvF1Gf/+6hVj9sGSPGwi0YUE3erLHTH8Ab88LBeaWK/KAGby1AlgnLBmeX7+dPtuaRh92mvEb852Jx/k55V72fBSZHPaVXmee+Kj6tI5Ky7/JvesONucfADrWR2LaBz62dBLhswPYxqtbtFxby96kL9KOSMe3eEvkvq4txY9ETn1FsW3KFu7R4ZWr+n5TGKn2wP17shJWFxb0NO9RPmXwnzlDZ1O024VRsyny1oXi+vQwfCFHtSmxlVSmJ160Km2dV4TGq3T8kGnzf4z3OTYKr162gIrzHVWwPPNhk6WHcZyeajfvqBUhSWmFgZMpt1uGCrDxRFmQc7QgQZ6byjewSMjuRSUeneKbzD1oPFqI3SGrvXgpH6xsw1i4MCA1saa8GWiZyAPzS0NrBza3ccZpLYGVmRSu18KwGxpYH0TWx4MFmM37LQTW7HOg7Ft7H7IACd7AyuGdufEM1QmrsPCnRMPGnvTTuzHO/95wHTK/szeBL7KrNqN1R45kXjaW7Ji0bJdKSh0FjcUuaXsSgQgNdcBWIPsaqmIzJPYZF+jG6bALvtKH7DNHjmHw+FwOBwOh8PhcDgcDsf/g/8AHLw9XqfvZpUAAAAASUVORK5CYII="/>
+    </pattern>
+    <filter id="_NoPath_-_نسخة" x="0" y="0" width="126.399" height="127.399" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#4a4747" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_NoPath_-_نسخة)">
+    <g id="_NoPath_-_نسخة-2" data-name="‏‏NoPath - نسخة" transform="translate(4 4)" stroke="#707070" stroke-width="1" fill="url(#pattern)">
+      <ellipse cx="54.2" cy="54.7" rx="54.2" ry="54.7" stroke="none"/>
+      <ellipse cx="54.2" cy="54.7" rx="53.7" ry="54.2" fill="none"/>
+    </g>
+  </g>
+</svg>
